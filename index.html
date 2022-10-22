@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+	<title>Iphone</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="container">
+				<div class="header__box">
+					<nav class="header__nav">
+						<ul class="header__nav-list">
+							<li class="header__nav-item">
+								<a href="#news" class="header__nav-link">Что нового</a>
+							</li>
+							<li class="header__nav-item">
+								<a href="#color" class="header__nav-link">Цвет</a>
+							</li>
+							<li class="header__nav-item">
+								<a href="#order" class="header__nav-link">Заказать</a>
+							</li>
+						</ul>
+					</nav>
+					<div class="header__logo">
+						<a href="#"><img src="images/logo.svg" alt="logo" class="header__logo-item"></a>
+					</div>
+					<div class="header__phone">
+						<a href="tel:380504565656" class="header__phone-link">+38 050-456-56-56</a>
+					</div>
+					<div class="header__burger"><span></span></div>
+				</div>
+			</div>
+		</header>
+
+		<main class="main">
+			<section class="iphone">
+				<div class="container">
+					<h1 class="iphone__title">
+						IPHONE 14 PRO
+					</h1>
+					<div class="iphone__img">
+						<img src="images/iphone.png" alt="iphone" class="iphone__img-item">
+					</div>
+					<div id="news" class="iphone__btn"><a href="#" class="iphone__btn-link">ВЫБРАТЬ</a></div>
+				</div>
+			</section>
+			<section class="news">
+				<div class="container">
+					<h2 class="news__title title">ЧТО НОВОГО</h2>
+					<div class="news__box">
+						<div class="news__box-description">
+							<p class="news__box-text">Все модели оснащены однокристальной системой A16 Bionic,
+								48-мегапиксельной основной камерой и экранами ProMotion с защитой Ceramic Shield и частотным
+								диапазоном 1 — 120 Гц, а также ускоренной памятью LPDDR5. Дизайн линейки обновлен, на
+								фронтальной панели смартфонов два выреза. </p>
+							<p class="news__box-text">Все iPhone 14 в США будут продаваться без лотка для SIM-карт:
+								производитель заявляет, что улучшенная технология eSIM позволит перенести старые электронные
+								сим-карты на новые смартфоны.</p>
+							<p class="news__box-text">Обновлены фронтальная камера (она снабжена автофокусом и быстрее
+								распознает пользователя в условиях недостаточной освещенности) и сенсор основной камеры.
+							</p>
+							<p class="news__box-text news__box-text-bold">iPhone 14 Pro вышел в новом дизайне — без фирменной
+								«челки». Также в ассортименте появился новый цвет. В смартфоне, в отличие от «обычных» 14-х
+								айфонов, установлен процессор A16 Bionic, который может за секунду производить 4 трлн операций с
+								фото.</p>
+						</div>
+						<div class="news__box-item">
+							<img src="images/news.png" alt="iphone" class="news__box-img">
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="color" class="color">
+				<div class="container">
+					<h2 class="color__title title">ВЫБЕРИ СВОЙ ЦВЕТ</h2>
+					<div class="color__list">
+						<div class="color__card">
+							<div class="color__img"><img src="images/silver.png" alt="card" class="color__item"></div>
+							<h3 class="color__card-title">Silver</h3>
+							<h6 class="color__card-subtitle">Серебристый</h6>
+						</div>
+						<div class="color__card">
+							<div class="color__img"><img src="images/purple.png" alt="card" class="color__item"></div>
+							<h3 class="color__card-title">Deep purple</h3>
+							<h6 class="color__card-subtitle">Темно фиолетовый</h6>
+						</div>
+						<div class="color__card">
+							<div class="color__img"><img src="images/gold.png" alt="card" class="color__item"></div>
+							<h3 class="color__card-title">Gold</h3>
+							<h6 class="color__card-subtitle">Золотой</h6>
+						</div>
+						<div class="color__card">
+							<div class="color__img"><img src="images/black.png" alt="card" class="color__item"></div>
+							<h3 class="color__card-title">Space Black</h3>
+							<h6 class="color__card-subtitle">Космический черный</h6>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="form">
+				<div class="container">
+					<div id="order" class="form__box">
+						<div class="form__box-left">
+							<h2 class="form__box-title">ХОЧЕШЬ IPHONE 14 PRO?</h2>
+							<form action="#" class="form__form" method="post" enctype="multipart/form-data">
+								<input type="text" class="form__name" placeholder="Ваше имя">
+								<input type="tel" class="form__phone" placeholder="Номер телефона">
+								<p class="form__text">В ближайшее время наш менеджер свяжется с Вами</p>
+								<button class="form__btn" type="submit">ЗАКАЗАТЬ</button>
+							</form>
+						</div>
+						<div class="form__box-right">
+							<div class="form__img">
+								<img src="images/form.jpg" alt="img" class="form__item">
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__box">
+					<p class="footer__politic">Политика конфиденциальности</p>
+					<div class="footer__logo"><a href="#"><img src="images/logo.svg" alt="logo" class="footer__img"></a>
+
+					</div>
+					<a href="tel:380504565656" class="footer__phone">+38 050-456-56-56</a>
+				</div>
+			</div>
+	</div>
+	<script src="js/script.js"></script>
+</body>
+
+</html>
